@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mishra Tourism Center.com</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+        	<div class="logo">
+        		<img src="images/logo.png">
+        </div>
+            <ul>
+                <li><div class="search-container">
+                    <form action="Home.html">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    </div>
+             	<li class="active"><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Gallery.html">Gallery</a></li> 
+                <li><a href="More.html">More</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li> 
+                </ul>           
+        </div>
+<h1><marquee direction="left" onMouseOver="this.stop()" onMouseOut="this.start()" scrollamount="10"><blink><font color="yellow">Mishra Tourism Center.com|</font><a href="Book.html" style="text-decoration: none;">BOOK NOW</a></blink></marquee></h1>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="img/a.png"></a>
+            <a href="mailto:mishrasraj001@outlook.com"><img src="img/b.png"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="img/c.png"></a>
+            <a href="https://twitter.com/Mishrasuraj001"><img src="img/d.png"></a>
+            <a href="https://www.youtube.com/channel/UCKZLCLduW3Zv4i_gYo8_N4w"><img src="img/e.png"></a>
+        </div>
+        <div class="title">
+		<div id="welcome"></div><br>
+        	<h1 class="glow">MISHRA TOURISM CENTER<font color="blue">.com</font></h1>
+        </div>
+        <div class="button">
+        	<a href="Login.html" class="btn"><i class="fa fa-spinner fa-spin"></i> LOGIN</a>
+        	<a href="Help.html" class="btn"><i class="fa fa-spinner fa-spin"></i> HELP</a>
+        </div>
+        <img src="images/of.gif" width="250" height="auto" class="img1">
+        <embed src="Media/Despacito.mp3" height="0" width="0"></embed>
+        <div class="rate">
+        <h2>Rated Worldwide:-</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </div>
+        <div class="callout">
+            <div class="callout-header">Mishra Tourism Center.com</div>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+            <div class="callout-container">
+        <p>Welcome to Mishra Tourim Center.com</p>
+        </div>
+        </div>
+         <div class="footer">
+                &copy; 2018 Mishra Tourism Center<font color="blue">.com</font>
+        </div>
+    </header>
+	<script type="text/javascript">
+	var n=window.location.search;
+	var mishra=n.replace("?suraj="," ");
+	function next(){
+	var b=mishra.replace("+"," ");
+	var c=b.replace("++"," ");
+	var d=c.replace("+++"," ");
+	var e=d.replace("++++"," ");
+	var f=e.replace("+++++"," ");
+	var g=f.replace("++++++"," ");
+	var h=g.replace("+++++++"," ");
+	var i=h.replace("++++++++"," ");
+	var j=i.replace("+++++++++"," ");
+	var k=j.replace("++++++++++"," ");
+	
+	//alert("Welcome \n"+k);
+	document.getElementById("welcome").innerHTML="Welcome "+k;
+	}
+	setInterval(next,50);
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url(../images/1.gif);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: Century Gothic;
+  font-size: 25px;
+}
+
+.topleft img{
+  position: absolute;
+  top: 0;
+  left: 16px;
+  width: 150px;
+  height: auto;
+}
+
+  .footer{
+  font-size: 20px;
+  font-weight: bold;
+    bottom: 0px;
+    position: fixed;
+    margin-left: 5px;
+    color: white;
+ }
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.middle p{
+  font-size: 40px;
+  color: red;
+  font-weight: bolder;
+  text-shadow: 0 0 25px yellow;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}

@@ -1,0 +1,220 @@
+ *{margin: 0;
+ 	padding: 0;
+ 	font-family: Century Gothic;
+ }
+
+ header{
+ 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/1.gif);
+ 	height: 100vh;
+ 	background-size: cover;
+ 	background-position: center;
+ 	overflow-y: auto;
+	background-attachment:fixed;
+ }
+ 
+  ::selection{
+background:pink;
+color:black;
+}
+ ul{
+ 	float:  right;
+ 	list-style-type: none;
+ 	margin-top: 30px;
+ }
+ ul li{
+ 	display: inline-block;
+ }
+
+ ul li a{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	padding: 5px 20px;
+ 	border: 1px solid transparent;
+ 	transition: 0.5s ease;
+ 	font-weight: bolder;
+    text-shadow: 0 0 35px yellow;
+ }
+ ul li a:hover{
+ 	background-color: pink;
+ 	color: #000;
+ }
+ ul li.active a{
+ 	background-color: pink;
+ 	color: #000;
+    text-shadow: none;
+ }
+
+ .logo img{
+ 	float: left;
+ 	width: 150px;
+ 	height:auto;
+ }
+
+ .main{
+ 	max-width: 1200px;
+ 	margin: auto;
+ }
+
+.title{
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	right: 20px;
+}
+
+ul li input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid green;
+}
+
+ul li .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: 1px solid green;
+  cursor: pointer;
+}
+
+ul li .search-container button:hover {
+  background: pink;
+  transition: .5s;
+}
+
+  .footer{
+ 	font-size: 20px;
+ 	font-weight: bold;
+    bottom: 0px;
+    position: fixed;
+    margin-left: 5px;
+    color: white;
+ }
+.open-button {
+  background-color: pink;
+  font-weight: bolder;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+ .html{
+    border: 1px;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.6);
+    width: 50%;
+    padding: 20px;
+    margin-left: 20%; 
+}
+ .html img{
+    margin-left: 55px;
+ }
+
+ .html img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+ }
+
+h1 {
+    font-size: 2em; 
+    color: red;
+}
+
+
+.rate {
+    display: inline-block;
+    border: 0;
+}
+
+.rate > input {
+    display: none;
+}
+
+.rate > label {
+    float: right;
+    color: white;
+}
+
+.rate > label:before {
+    display: inline-block;
+    font-size: 1.1rem;
+    padding: .3rem .2rem;
+    margin: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    content: "\f005 "; 
+}
+
+.rate > label:last-child:before {
+    content: "\f006 ";
+}
+
+.rate .half:before {
+    content: "\f089 ";
+    position: absolute;
+    padding-right: 0;
+}
+
+input:checked ~ label,
+label:hover, label:hover ~ label { color: #73B100;  }
+input:checked + label:hover, input:checked ~ label:hover,
+input:checked ~ label:hover ~ label,
+label:hover ~ input:checked ~ label{ color: #A6E72D;  } 

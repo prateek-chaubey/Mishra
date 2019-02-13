@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mishra Tourism Center.com</title>
+    <link rel="stylesheet" type="text/css" href="css/help_style.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="main">
+        	<div class="logo">
+        		<img src="images/logo.png">
+        	</div>
+            <ul>
+                <li><div class="search-container">
+                    <form action="Home.html">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    </div>
+             	<li class="active"><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Gallery.html">Gallery</a></li> 
+                <li><a href="More.html">More</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li> 
+                </ul>           
+        </div>
+        <div class="title">
+        	<font color="white"><h2>May I help you?<br>
+<br>
+First login the site to unlock all properties if this website.After that you search for your interest places, and simply contact us for booking.<br>Just comment us what you feel or want to ask.<br>
+
+</h2></font><br><br>
+<div>
+    <h2><font color="white">Made With:</font></h2>
+    <div class="html">
+        <img src="images/HTML.png" height="100">
+        <img src="images/css.png" height="100">
+        <img src="images/jquery.gif" height="100">
+        <img src="images/js.png" height="100">
+    </div>
+    <div class="rates">
+    <h1>Rate Us</h1>
+<fieldset class="rate">
+    <input type="radio" id="rating10" name="rating" value="10" /><label for="rating10" title="5 stars"></label>
+    <input type="radio" id="rating9" name="rating" value="9" /><label class="half" for="rating9" title="4 1/2 stars"></label>
+    <input type="radio" id="rating8" name="rating" value="8" /><label for="rating8" title="4 stars"></label>
+    <input type="radio" id="rating7" name="rating" value="7" /><label class="half" for="rating7" title="3 1/2 stars"></label>
+    <input type="radio" id="rating6" name="rating" value="6" /><label for="rating6" title="3 stars"></label>
+    <input type="radio" id="rating5" name="rating" value="5" /><label class="half" for="rating5" title="2 1/2 stars"></label>
+    <input type="radio" id="rating4" name="rating" value="4" /><label for="rating4" title="2 stars"></label>
+    <input type="radio" id="rating3" name="rating" value="3" /><label class="half" for="rating3" title="1 1/2 stars"></label>
+    <input type="radio" id="rating2" name="rating" value="2" /><label for="rating2" title="1 star"></label>
+    <input type="radio" id="rating1" name="rating" value="1" /><label class="half" for="rating1" title="1/2 star"></label>
+    <input type="radio" id="rating0" name="rating" value="0" /><label for="rating0" title="No star"></label>
+</fieldset>
+	</div>
+</div>
+    <button class="open-button" onclick="openForm()"><i class="fa fa-spinner fa-spin"></i> Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="#" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn"><i class="fa fa-spinner fa-spin"></i> Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><i class="fa fa-spinner fa-spin"></i> Close</button>
+  </form>
+</div>
+<br>
+<embed src="Media/ms3.mp3" height="0" width="0"></embed>
+ <div class="footer">
+                &copy; 2018 Mishra Tourism Center<font color="blue">.com</font>
+            </div>
+    </header>
+    <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+</body>
+</html>
